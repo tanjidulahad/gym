@@ -1,0 +1,62 @@
+/* alert */
+.swal-modal {
+    background-color: rgba(255, 0, 0, 0.74);
+    border: 3px solid black;
+}
+.swal-text {
+    padding: 17px;
+    border: 1px solid #F0E1A1;
+    display: block;
+    margin: 22px;
+    text-align: center;
+    color: white;
+}
+
+
+/* contact us */
+.contactus{
+    background: black;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactus h2{
+    color:white;
+    font-weight: bold;
+    font-family: 'Lato';
+    margin-bottom: 50px;
+}
+.contactusform textarea{
+    background-color: rgb(39, 39, 39);
+    height: 150px;
+    border: none;
+    color: white;
+    transition: all 0.8s ease;
+}
+.contactusform input{
+    background-color: rgb(39, 39, 39);
+    border: none;
+    color: white;
+    transition: all 0.8s ease;
+}
+.contactusform button{
+    color: white;
+    font-weight: bold;
+    background-color: red;
+}
+.contactusform input:focus {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    border:1px solid red;
+}
+.contactusform textarea:focus{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    border:1px solid red;
+}
+.form-control:focus {
+    border-color:inherit;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+  }

@@ -1,0 +1,58 @@
+.header{
+    background: url('../../images/banner.png') no-repeat center;
+    height: 105vh;
+    background-color: rgb(148, 37, 18);
+    background-blend-mode:multiply;
+    filter: opacity(0.9);
+    margin-top: -95px;
+}
+
+.title{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-weight: bold;
+    font-family:'Lato';
+}
+.title h3{
+    font-size: 2.7rem;
+}
+.title h1{
+    font-size: 5rem;
+    
+}
+.title h1 span{
+    color: red;
+    
+}
+.title button{
+    background: red;
+    border: none;
+    width: 160px;
+    height: 50px;
+    color: white;
+}
+.title button:hover{
+    background-color: transparent;
+    transition: all ease 0.5s;
+    color: #ffffff;
+    border: 1px solid #FF1414;
+}
+
+
+@media only screen and (max-width: 768px){
+    .title h3{
+        font-size: 1.7rem;
+    }
+    .title h1{
+        font-size: 2.5rem;
+        
+    }
+    .title button{
+        width: 100px;
+        height: 40px;
+
+    }
+}
